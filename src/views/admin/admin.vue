@@ -80,7 +80,7 @@ export default {
     },
     //删除用户
     async dele (a) {
-      if (a.id === 2) {
+      if (a.id === 51) {
         this.$message.error('管理员用户不可删除')
       } else {
         const confirmres = await this.$confirm(
