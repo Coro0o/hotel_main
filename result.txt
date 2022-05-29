@@ -1,0 +1,24 @@
+├─server
+|  ├─db                  数据库连接
+|  ├─router              路由信息
+|  ├─router_handler      业务逻辑
+|  ├─schema              包的配置文件
+|  ├─app.js              程序主入口
+|  ├─config.js           配置文件
+|  ├─package-lock.json   版本控制文件
+|  ├─package.json        项目相关信息
+
+
+
+
+├─src
+|   ├─assets             静态资源文件
+|   ├─plugins            引入的库
+|   ├─router             路由文件
+|   ├─utils              方法函数
+|   ├─views              业务页面和组件
+|   ├─App.vue            主应用程序组件
+|   ├─main.js            应用入口文件
+|   ├─package.json       构建脚本以及依赖关系
+|   ├─package-lock.json  版本控制文件
+|   ├─vue.config.js      Vue配置文件
