@@ -102,7 +102,7 @@ export default {
             this.reload()
           })
           .catch((err) => {
-            this.$message.warning(err.message);
+            this.$message.info(err.message);
           })
       }
 
