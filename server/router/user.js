@@ -6,7 +6,6 @@ const user_handler = require('../router_handler/user')
 //导入验证中间件
 const expressjoi = require('@escook/express-joi')
 const { login_schema } = require('../schema/user')
-// 导入需要的验证规则对象
 const { update_password_schema } = require('../schema/user')
 const { update_avatar_schema } = require('../schema/user')
 const { update_userinfo_schema } = require('../schema/user')
